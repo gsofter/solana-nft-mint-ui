@@ -16,8 +16,9 @@
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "noImplicitAny": false
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/ShowNFTs.js", "src/pages/index.js", "src/components/MetaplexProvider.js", "src/hooks/useMetaplex.tsx"],
   "exclude": ["node_modules"]
 }
